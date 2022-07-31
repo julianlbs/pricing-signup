@@ -1,0 +1,19 @@
+{
+	"name": "pricing-signup",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"sass": "sass --watch scss:styles"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bootstrap": "^5.2.0",
+		"jquery": "^3.6.0"
+	},
+	"devDependencies": {
+		"sass": "^1.54.0"
+	}
+}

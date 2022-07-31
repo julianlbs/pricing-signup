@@ -1,0 +1,137 @@
+@import "custom";
+@import "fonts";
+@import "typography";
+@import "button";
+
+//============ Nav Style ============//
+nav {
+    background-color: $headerColor;
+    padding: 0.6rem 2rem;
+    color: white;
+}
+
+//============ Form Style ============//
+section.form-bg {
+    background-color: $bgColor;
+    padding: 2.5rem;
+}
+
+form {
+    width: 550px;
+
+    .form-container {
+        margin: 0 3rem;
+    }
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+.website-input {
+    width: 70%;
+}
+
+.website-label {
+    width: 30%;
+}
+
+//============ Plan Card Style ============//
+.plan-card {
+    width: 140px;
+    cursor: pointer;
+
+    .plan-card-title {
+        background-color: $TextFormColor;
+    }
+
+    .plan-body {
+        background-color: $bgColor;
+        height: 100%;
+        
+        .price {
+            font-weight: bold;
+            color: $TextFormColor;
+        }
+        
+        .plan-text {
+            font-size: 9px;
+            display: block;
+            color: $TextFormColor;
+        }
+    }
+
+}
+
+.plan-card-selected {
+
+    .plan-card-title {
+        background-color: $TitlesColor;
+    }
+
+    .plan-body {
+        background-color: $cardColor;
+        height: 100%;
+        
+        .price {
+            font-weight: bold;
+            color: $TitlesColor;
+        }
+        
+        .plan-text {
+            font-size: 9px;
+            display: block;
+            color: $TitlesColor;
+        }
+    }
+}
+
+//============ Footer Style ============//
+footer {
+    color: $TextFormColor;
+    font-size: 0.85rem;
+    padding-top: 2rem;
+    
+    section {
+        max-width: 1080px;
+        margin: 0 auto;
+        h5 {
+            font-size: 1rem;
+        }
+    }
+}
+
+
+//============ Media Queries ============//
+@include media-breakpoint-down(sm) {
+    form {
+        width: 300px;
+
+        .form-container {
+            margin: 0 1rem;
+        }
+    }
+    .website-input {
+        width: 55%;
+    }
+
+    .website-label {
+        width: 45%;
+    }
+
+    .plan-card {
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer>section {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0 1rem;
+    }
+}
+
+
+
+

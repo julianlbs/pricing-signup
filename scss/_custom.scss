@@ -1,0 +1,18 @@
+
+
+// Changes the font family
+$font-family-base: 'Roboto', sans-serif;
+
+
+$headerColor: #151515;
+$TitlesColor: #3a3a3a;
+$TextFormColor: #86868b;
+$bgColor: #f1f1f1;
+$cardColor: #ffaf1f;
+$strokeFormColor: #a7a6a6;
+
+// changes input focus color
+$component-active-bg: $strokeFormColor;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+ 

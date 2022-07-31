@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav>
+			<a class="d-flex align-items-center nav-link" href="#"
+				><span class="fs-3 me-1 fw-light"><</span>BACK TO VERSIONS</a
+			>
+		</nav>
+
+		<section class="form-bg">
+			<form class="mx-auto card shadow pt-3 pb-5">
+				<div class="form-container">
+					<h2 class="text-center title-text fw-bold">Sign Up for Fabricator</h2>
+					<div class="mb-3">
+						<p class="mt-3 mb-2 fw-bold title-text">
+							Please enter your details
+						</p>
+						<input
+							type="text"
+							id="name"
+							class="form-control"
+							placeholder="*Name..."
+							autofocus
+							required
+						/>
+						<div class="valid-feedback">Looks good!</div>
+						<input
+							type="email"
+							class="form-control"
+							placeholder="*E-mail..."
+							aria-describedby="emailHelp"
+							required
+						/>
+						<input
+							type="tel"
+							pattern="[0-9]{11}"
+							class="form-control"
+							placeholder="*Phone..."
+							aria-placeholder="*Phone..."
+							required
+						/>
+						<input
+							type="text"
+							class="form-control"
+							placeholder="*Company..."
+							required
+						/>
+						<input
+							type="text"
+							class="form-control"
+							placeholder="*Login..."
+							required
+						/>
+						<input
+							type="password"
+							class="form-control"
+							placeholder="*Password..."
+							required
+						/>
+						<div>
+							<input
+								type="text"
+								class="website-input form-control d-inline-block"
+								placeholder="*Temporary Website..."
+								required
+							/>
+							<span class="website-label inline-block ms-2 fw-light"
+								>.slabware.com</span
+							>
+						</div>
+					</div>
+
+					<div class="my-4">
+						<p class="text-title mb-2">Select your plan</p>
+						<div class="d-flex flex-wrap justify-content-between">
+							<!-- Card 1 -->
+							<div
+								class="card plan-card rounded overflow-hidden plan-card-selected"
+							>
+								<div class="py-1 plan-card-title text-white">
+									<h6 class="text-center my-0">Monthly</h6>
+								</div>
+								<div class="plan-body text-center py-2">
+									<span class="price">U$ 149</span>
+									<span class="plan-text">Per month</span>
+								</div>
+							</div>
+							<!-- Card 2 -->
+							<div class="card plan-card rounded overflow-hidden">
+								<div class="py-1 plan-card-title text-white">
+									<h6 class="text-center my-0">Semesterly</h6>
+								</div>
+								<div class="plan-body text-center py-2">
+									<span class="price">U$ 142</span>
+									<span class="plan-text">Per month</span>
+									<span class="plan-text"
+										>Billed semesterly <span class="fw-bold">U$ 852</span></span
+									>
+								</div>
+							</div>
+							<!-- Card 3 -->
+							<div class="card plan-card rounded overflow-hidden">
+								<div class="py-1 plan-card-title text-white">
+									<h6 class="text-center my-0">Yearly</h6>
+								</div>
+								<div class="plan-body text-center py-2">
+									<span class="price">U$ 135</span>
+									<span class="plan-text">Per month</span>
+									<span class="plan-text"
+										>Billed yearly <span class="fw-bold">U$ 1,620</span></span
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="button d-block mx-auto">BUY NOW</button>
+				</div>
+			</form>
+		</section>
+		<footer>
+			<section class="d-flex flex-wrap justify-content-between px-5">
+				<div>
+					<h5>Pages</h5>
+					<p>Home</p>
+				</div>
+				<div>
+					<h5>Versions</h5>
+					<p>Fabricator</p>
+				</div>
+				<div>
+					<h5>More info</h5>
+					<p>info@slabware.com</p>
+				</div>
+				<div>
+					<h5>Help</h5>
+					<p>How it Works</p>
+				</div>
+				<div>
+					<h5>Social Media</h5>
+					<p>Instagram</p>
+				</div>
+			</section>
+			<div><hr /></div>
+			<section class="d-flex justify-content-between py-4 px-5">
+				<h5>Headquarter:</h5>
+				<p>Brazil</p>
+			</section>
+		</footer>
+	</body>
+	<script src="/node_modules/jquery/dist/jquery.js"></script>
+	<script src="index.js"></script>
+</html>
